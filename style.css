@@ -1,7 +1,300 @@
-#menu
-{
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background: white;
+
+body {   
+  /*background-color:#FBF5E3 ;*/
+  background-image:url("old_map.png");
+  font-family:"Calibri";
 }
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: white(192, 21, 21);
+  overflow:auto;
+  display: block;
+  font-size: large;
+  margin-block-start: 0.68em;
+  margin-block-end: 0.7em;
+  margin-inline-end: 100px;
+  
+  float:left;
+  text-align:center;
+  text-decoration: underline;
+
+
+}
+.title {
+	color:  rgb(199, 170, 42);
+	width: 100%;
+  font-weight: bold;
+	background-color: white(192, 21, 21);
+	font-display:initial;
+	overflow:auto;
+	display: block;
+	font-size: 3.5em;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+	text-align:center;
+	float: left;
+
+}
+.Text{
+  color:black;
+  font-size:large;
+
+
+}
+P{ color:black;
+  font-size:large;
+  text-align:center;
+}
+
+
+.navbar ul{ text-align:center;}
+.navbar a {
+  float: left;
+ 
+  color: black;
+  text-align:center;
+  padding: 12px;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-size: x-large;
+  text-decoration: none;
+  font-size: 20px;
+  width: 10%;
+  height: 100%;
+  float:right;
+  
+
+
+
+}
+
+.navbar a:hover {
+  background-color:antiquewhite(233, 233, 211);
+  color: rgba(223, 193, 24, 0.849);
+  font-weight: bold;
+  font-style:italic;
+  transform:translateY(30%)
+  
+}
+
+.header img {
+  float:right;
+  width: 150px;
+  height: 150px;
+  margin-right :2%;;
+  background: #FBF5E3;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+
+ 
+.picture {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border-right-style: groove;}
+
+ 
+  .aboutMe {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border-right-style: groove;}
+
+  .aboutMe:hover {
+    transform: scale(1.3);
+
+    }
+    
+    .befor {
+      width: 350px;
+      height: 350px;
+      border-radius: 50%;
+    border-right-style: groove;
+     }
+  
+
+
+
+    .textH:hover{color:  rgba(223, 193, 24, 0.849);}
+  
+
+  .form-style-3{
+    max-width: 450px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  .form-style-3 label{
+    display:block;
+    margin-bottom: 10px;
+  }
+  .form-style-3 label > span{
+    float: left;
+    width: 100px;
+    color:  white;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .form-style-3 fieldset{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid  rgba(223, 193, 24, 0.849);
+    padding: 20px;
+    /* here i change the background*/
+    background:   rgba(245, 221, 87, 0.877);
+    box-shadow: inset 0px 0px 15px #4b4747;
+    -moz-box-shadow: inset 0px 0px 15px #F1F1F1;
+    -webkit-box-shadow: inset 0px 0px 15px #F1F1F1;
+  }
+  .form-style-3 fieldset legend{
+    /*text vox*/
+    color:white;
+    border-top: 1px solid rgba(223, 193, 24, 0.849); 
+    border-left: 1px solid rgba(223, 193, 24, 0.849); 
+    border-right: 1px solid  rgba(223, 193, 24, 0.849);
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    /*here change the box color*/
+    background:  rgba(231, 209, 83, 0.849);
+    padding: 0px 8px 3px 8px;
+    box-shadow: -0px -1px 2px #6d5d02;
+    -moz-box-shadow:-0px -1px 2px #F1F1F1;
+    -webkit-box-shadow:-0px -1px 2px #F1F1F1;
+    font-weight: normal;
+    font-size: 12px;
+  }
+  .form-style-3 textarea{
+    width:250px;
+    height:100px;
+  }
+  .form-style-3 input[type=text],
+  .form-style-3 input[type=date],
+  .form-style-3 input[type=datetime],
+  .form-style-3 input[type=number],
+  .form-style-3 input[type=search],
+  .form-style-3 input[type=time],
+  .form-style-3 input[type=url],
+  .form-style-3 input[type=email],
+  .form-style-3 select, 
+  .form-style-3 textarea{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid #e7d571;
+    outline: none;
+    color:black;
+    padding: 5px 8px 5px 8px;
+    box-shadow: inset 1px 1px 4px #6d5d02;
+    -moz-box-shadow: inset 1px 1px 4px #6d5d02;
+    -webkit-box-shadow: inset 1px 1px 4px #6d5d02;
+    background: white;
+    width:60%;
+  }
+  .form-style-3  input[type=submit],
+  .form-style-3  input[type=button]{
+    background: #706903bb;
+    border: 1px solid #d8d644;
+    padding: 5px 15px 5px 15px;
+    color:ghostwhite;
+    border-radius: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;	
+    font-weight: bold;
+  }
+  .required{
+    color:red;
+    font-weight:normal;
+  }
+
+
+
+  td:hover{
+    background-color:  rgba(240, 222, 124, 0.849);
+  }
+  
+  th:hover{
+    background-color:  rgba(235, 203, 21, 0.849);
+  }
+
+  table {
+   
+    border-collapse: collapse;
+    width: 70%;
+    border-color:#FBF5E3 ;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+    width:20%;
+    text-align: center;
+    font-family:"Calibri";
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgba(250, 234, 146, 0.849);
+  }
+  
+
+
+  .wrapper {
+    position: relative;
+    flex-grow: 1;
+    margin: auto;
+    max-width: 1200px;
+    max-height: 1200px;
+    
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 2vmin;
+    justify-items: center;
+    align-items: center;
+  }
+
+
+  .free  {
+    background-size: .75em 100%, 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    background-image: 
+    linear-gradient(to right, rgba(255,255,255,.025) 10%, transparent 0),
+    linear-gradient(#222, #000);
+    z-index: 1;
+    grid-column: span 2;
+    max-width: 100%;
+    margin-bottom: -52%;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    transform: scale(1);
+    transition: all .25s;
+    
+    
+    }
+
+    .free:nth-child(7n + 1) {
+      grid-column:2 / span 2;
+    }
+    .wrapper  :hover {
+      z-index: 2;
+      transform: scale(2.5);
+    }
+  
+  
